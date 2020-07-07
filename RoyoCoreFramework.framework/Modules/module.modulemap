@@ -1,0 +1,11 @@
+framework module RoyoCoreFramework {
+  umbrella header "RoyoCoreFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RoyoCoreFramework.Swift {
+    header "RoyoCoreFramework-Swift.h"
+    requires objc
+}
